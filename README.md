@@ -108,3 +108,18 @@ node server.js
 - **GET `/books`**: Retrieve a list of all books.
 - **GET `/books/search`**: Search for books by title.
 - **POST `/books/`**: Add a new book.
+```
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and open a pull request with your improvements. For major changes, please open an issue first to discuss what you aim to change.
+
+## Contact
+For further questions or feedback, please send an email to:
+- **Email:** sliman.nziha.dev.com
+- **GitHub:** [sliman-lan](https://github.com/sliman-lan)
+
+---
+This README provides an overview and guide for setting up and using the E-Library Backend API. It’s designed to help developers quickly understand and contribute to the project.
