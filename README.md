@@ -21,10 +21,6 @@ Below is the project directory structure displayed in Markdown:
 E-Library-Backend/
 ├── config/
 │   └── db.js                      // Database connection configuration
-├── controllers/
-│   ├── authController.js          // Authentication logic
-│   ├── bookController.js          // CRUD operations for books
-│   └── authorController.js        // CRUD operations for authors
 ├── middleware/
 │   └── errorHandler.js            // Centralized error handling middleware
 ├── models/
