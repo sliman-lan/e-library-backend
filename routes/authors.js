@@ -11,6 +11,13 @@ router.post('/', (req, res) => {
     });
 });
 
-// يمكنك إضافة المزيد من الوظائف هنا.
+// show authors
+router.get('/', (req, res) => {
+    Author.getAll((err, results) => {
+        if (err) return res.status(500).json({ error: err });
+        res.status(200).json(results);
+    });
+});
+
 
 module.exports = router;

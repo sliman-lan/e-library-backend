@@ -5,7 +5,10 @@ const Author = {
         const sql = 'INSERT INTO Author (Fname, Lname, Country, City, Address) VALUES (?, ?, ?, ?, ?)';
         db.query(sql, [fname, lname, country, city, address], callback);
     },
-    // يمكنك إضافة المزيد من الوظائف هنا.
+    getAll: (callback) => {
+        const sql = 'SELECT * FROM author';
+        db.query(sql, callback);
+    },
 };
 
 module.exports = Author;
