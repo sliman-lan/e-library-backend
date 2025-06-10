@@ -10,7 +10,6 @@ This project implements the backend API for an E-Library application using Node.
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Error Handling](#error-handling)
 - [License](#license)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -22,12 +21,6 @@ Below is the project directory structure displayed in Markdown:
 E-Library-Backend/
 ├── config/
 │   └── db.js                      // Database connection configuration
-├── controllers/
-│   ├── authController.js          // Authentication logic
-│   ├── bookController.js          // CRUD operations for books
-│   └── authorController.js        // CRUD operations for authors
-├── middleware/
-│   └── errorHandler.js            // Centralized error handling middleware
 ├── models/
 │   ├── Book.js                    // Book model definition
 │   ├── Author.js                  // Author model definition
@@ -60,10 +53,9 @@ Follow these steps to get your project up and running:
    
 ---
 
-**Configuration**
+## Configuration
 
 ```markdown
-## Configuration
 Create a `.env` file in the root directory with your environment variables. For example:
 ```
 ```dotenv
@@ -75,10 +67,9 @@ JWT_SECRET=your-secret-key
 
 ---
 
-**Usage**
+## Usage
 
 ```markdown
-## Usage
 Start the server by running:
 ```
 ```bash
@@ -92,7 +83,7 @@ node server.js
 
 ---
 
-**API Endpoints Heading**
+## API Endpoints
 
 ```markdown
 ## API Endpoints
