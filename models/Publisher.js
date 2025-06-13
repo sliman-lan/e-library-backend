@@ -5,7 +5,10 @@ const Publisher = {
         const sql = 'INSERT INTO Publisher (PName, City) VALUES (?, ?)';
         db.query(sql, [pname, city], callback);
     },
-    // يمكنك إضافة المزيد من الوظائف هنا.
+    getAll: (callback) => {
+        const sql = 'SELECT * FROM publisher';
+        db.query(sql, callback);
+    },
 };
 
 module.exports = Publisher;
